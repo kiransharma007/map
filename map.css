@@ -1,6 +1,8 @@
 
 .vertical-menu {
   width: 300px; 
+  padding: 0px;
+  margin: 0px;
 }
 
 .vertical-menu button{
@@ -22,4 +24,14 @@
 .vertical-menu button.click {
   background-color: #4CAF50; /* Add a green color to the "active/current" link */
   color: white;
+}
+img
+{
+	height:500px;
+	width: 800px;
+}
+.right
+{
+	float: right;
+ 	padding: 0 20px 20px 0;
 }
