@@ -11,6 +11,7 @@
 
   <!-- Latest compiled JavaScript -->
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+   <script type="text/javascript"src="map.js"></script>
   </head>
 <body>
 
@@ -23,10 +24,11 @@
       </ul>
     </div>
   </nav>
-  <img src="bg.jpg" class="right">
+  <img id="image" src="bg.jpg" class="right">
   <div class="vertical-menu">
+
       <button>Home</button>
-      <button>Departments</button>
+      <button id="clickme" onclick="changeImage();">Departments</button>
       <button>Auditorium</button>
       <button>Parking Lot</button>
       <button>Basketball Court</button>
