@@ -1,3 +1,4 @@
+
 .navbar {
 padding-bottom: 0;
 margin-bottom: 0;
@@ -5,8 +6,8 @@ margin-bottom: 0;
 .vertical-menu {
 
   font-weight: bold;
-  width: 100px; 
-  
+  width: 30%; 
+  height:200px;
   margin: 0px;
 }
 
@@ -20,8 +21,8 @@ margin-bottom: 0;
   font-family: sans-serif;
   font-weight: bold;
   margin-right: 0;
-  width: 300px;
-  height: 20px;
+  width: 100%;
+  height:5%;
   background-color: yellow; /* Grey background color */
   color: black; /* Black text color */
   display: block;/* Make the links appear below each other */
@@ -41,8 +42,8 @@ margin-bottom: 0;
 }
 img
 {
-  height:650px;
-  width: 1230px;
+  height: 100%;
+  width: 70%;
 }
 .right
 {
