@@ -1,13 +1,24 @@
-
+body{
+  background-color: #f0c7e6;
+}
 .navbar {
 padding-bottom: 0;
 margin-bottom: 0;
+background:  #cf65b4;
+color: black;
+}
+ .navbar-inverse .navbar-right>li>a{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: sans-serif;
+  color:black;
 }
 .vertical-menu {
 
   font-weight: bold;
-  width: 30%; 
-  height:200px;
+  width: 24%;
+  height:100px; 
+  
   margin: 0px;
 }
 
@@ -22,28 +33,28 @@ margin-bottom: 0;
   font-weight: bold;
   margin-right: 0;
   width: 100%;
-  height:5%;
-  background-color: yellow; /* Grey background color */
+  height: 5%;
+  background-color: #edb4de; /* Grey background color */
   color: black; /* Black text color */
   display: block;/* Make the links appear below each other */
-  padding: 17px;/* Add some padding */
+  padding: 16px;/* Add some padding */
   font-size: 120%;
   font-weight: 600;
 }
 
 .vertical-menu button:hover {
-  background-color: #4CAF50; /* green background on mouse-over */
+  background-color: #39b82e; /* green background on mouse-over */
   font-weight: 800;
 }
 
 .vertical-menu button.click {
-  background-color: #4CAF50; /* Add a green color to the "active/current" link */
+  background-color: #39b82e; /* Add a green color to the "active/current" link */
   color: white;
 }
 img
 {
-  height: 100%;
-  width: 70%;
+  height:100%;
+  width: 75%;
 }
 .right
 {
